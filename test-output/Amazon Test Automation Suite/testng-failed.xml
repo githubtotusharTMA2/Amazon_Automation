@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Amazon Test Automation Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" parallel="tests" name="Amazon Tests(failed)" verbose="2">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Amazon Tests(failed) -->
+</suite> <!-- Failed suite [Amazon Test Automation Suite] -->
