@@ -20,7 +20,7 @@ public class TestBase
 		try
 		{
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("E:\\QA_Infotech\\Training_Works\\Eclipse\\AmazonTest\\src\\main\\java\\com\\amazon\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("E:\\QA_Infotech\\Training_Works\\Eclipse\\Utils\\Amazon_Config\\config.properties");
 			prop.load(ip);
 		}
 		catch(FileNotFoundException e)
